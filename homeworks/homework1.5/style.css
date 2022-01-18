@@ -1,0 +1,32 @@
+*svg{
+    transform-box: fill-box;
+}
+
+#letter-a{
+    fill:dodgerblue
+}
+
+#svg-fun path{
+    fill: lightgreen;
+}
+
+#svg-fun path:hover{
+    fill: hotpink;
+}
+
+#svg-fun #letter-f{
+    transition: 300ms;
+    fill: hotpink;
+}
+
+#svg-fun #letter-f:hover {
+    fill: lightgreen
+}
+
+#letter-f{
+    transition: 300ms;
+}
+
+#letter-f:hover{
+    transform: rotate(15deg);
+}
