@@ -16,7 +16,7 @@
 
 #svg-fun #letter-f{
     transition: 300ms;
-    fill: hotpink;
+    fill: hotpink; 
 }
 
 #svg-fun #letter-f:hover {
