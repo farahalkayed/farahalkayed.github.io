@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(240, 60, 114);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  a { color:rgb(12, 133, 86);}
+  a:hover {
+    color: rgb(226, 58, 91);
+  }
+  img {
+    width: 100%;
+  }
+  .parent-flex {
+    display: flex;
+    border: 8px solid black;
+    margin: 60px;
+    background: white;
+  }
+  .parent-flex div {
+    margin: 10px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  h1{
+      color: whitesmoke;
+  }
+
+  .flex-left {
+    flex: 20%;
+  }
+  .flex-center {
+    flex: 40%;
+    padding: 0 40px;
+  }
+  .flex-right {
+    flex: 40%;
+  }
+
+  #quote{font-style: oblique;}
+
+#name{font-weight: bold;}
